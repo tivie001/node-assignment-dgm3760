@@ -2,7 +2,7 @@
   "name": "node-assignment",
   "version": "1.0.0",
   "description": "Assignment to practice using nodeJS to create web servers.",
-  "main": "index.js",
+  "master": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
