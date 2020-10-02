@@ -1,8 +1,5 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
-app.use(bodyParser.json());
-
 
 const characters = [
     {
@@ -37,10 +34,7 @@ app.get("/api/characters", (req, res, next) => {
     res.send(characters)
     next()
 })
-app.post('/api/characters/new', (req, res, next) => {
-    var dog = req.body;
-    console.log(dog);
-
+app.post('/api/characters/new', (req, res) => {
     characters.push({
         "_id": "5a0fa7dcae5bc100213c2338",
         "name": "Sirius Black",
