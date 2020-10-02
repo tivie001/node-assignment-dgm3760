@@ -2,9 +2,10 @@
   "name": "node-assignment",
   "version": "1.0.0",
   "description": "Assignment to practice using nodeJS to create web servers.",
-  "master": "index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
